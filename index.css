@@ -99,7 +99,12 @@ margin-top: 5px;
       height:5px;
      
   } */
- 
+ .trendingSearch{
+     display: block;
+     font-size: 18px;
+     margin-top:15px;
+     margin-left:50px;
+ }
 
   .register{
       text-align: center;
@@ -193,7 +198,7 @@ position:relative;
 #hometemplate{
     /* border:1px solid red; */
     /* height: 500px; */
-    width:30%;
+    
     list-style-type: none;
     margin-right: 25px;
     font-size: 12px;
@@ -301,6 +306,7 @@ width:80%;
     width:100%;
     max-width: 1000px;
     position: relative;
+    box-sizing: border-box;
     /* margin-top:30px; */
     /* border:1px solid red; */
   }
@@ -416,12 +422,14 @@ width:80%;
   }
 
 .sizeofdownloadtext{
+    /* margin-top: 30px; */
     font-size: 40px;
     font-weight: 600;
 }
 
 
 #bannerapphotoofplaystoreapplegoogle>div:nth-child(1){
+    margin-top: 20px;
     margin-left:100px;
     margin-right:50px
 }
@@ -429,9 +437,12 @@ width:80%;
 display: flex;
 margin:auto;
 
-
-
 }
+
+.downloadtextdiv{
+    margin-top: 30px;
+}
+
 /* #bannerapphotoofplaystoreapplegoogle>.adjusttheimages{
     border:a=1px solid blue;
     display: flex;
@@ -449,7 +460,7 @@ margin:auto;
 }
 
 #footericons{
-    border:1px solid red;
+    /* border:1px solid red; */
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
@@ -535,7 +546,7 @@ font-size: 20px;
 .fa {
     padding: 15px;
     font-size: 25px;
-    width: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     border-radius:50%;

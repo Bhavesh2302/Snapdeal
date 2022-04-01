@@ -3,6 +3,7 @@ document.querySelector("form").addEventListener("submit",pincode)
 
 var enteredpincode=localStorage.getItem("pincode")
 function pincode(){
+    event.preventDefault()
     var enteredpincode=document.querySelector("#enterpincode").value;
 console.log("inside function")
 

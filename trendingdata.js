@@ -15,7 +15,7 @@ var trendingData=[
     
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/l/3/large/N95-White-Face-Mask-Reusable-SDL636079837-1-efb91.webp",
-            name: "N95 White Face Mask, Reusable, Washable CE &amp; ISO Certified to Protect Mouth Droplets, Dust and Pollution Pack Of 20",
+            name: "N95 White Face Mask, Reusable, Washable Pack Of 20",
             strikedprice: "MRP  Rs. 999",
             price: 157,
             offer: "84% OFF",
@@ -27,7 +27,7 @@ var trendingData=[
     
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/m/l/large/Healthopedia-N95-Face-Masks-Pack-SDL860604353-1-74edb.webp",
-            name: "Healthopedia N95 Face Masks Pack Of 8, Easy Breathable, Washable - Reusable Multicolor Masks for Men &amp; Women",
+            name: "Healthopedia N95 Face Masks Pack Of 8, Easy Breathable" ,
             strikedprice: "MRP  Rs. 1,199",
             price: 149,
             offer: "88% OFF",
@@ -51,7 +51,7 @@ var trendingData=[
     
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/s/1/large/HOMETALES-Microfibre-Double-Bedsheet-with-SDL353410394-1-ddf2f.webp",
-            name: "HOMETALES Microfibre 120 TC Double Bedsheet with 2 Pillow Covers ( 218 cm x 229 cm )",
+            name: "HOMETALES Double Bedsheet with 2 Pillow Covers ( 218 cm x 229 cm )",
             strikedprice: "MRP  Rs. 999",
             price: 329,
             offer: "67% OFF",
@@ -63,7 +63,7 @@ var trendingData=[
     
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/a/8/large/Shiv-Shakti-Kavach-5-Mala-SDL443330653-1-a0955.webp",
-            name: "Shiv Shakti Kavach 5 Mala With Shiv Trishul &amp; Damru Wood Shiv Shakti Kavach Mukhi Rudraksha Wood Locket For Men &amp; Women",
+            name: "Shiv Shakti Kavach 5 Mala With Shiv Trishul ",
             strikedprice: "MRP  Rs. 499",
             price: 135,
             offer: "73% OFF",
@@ -75,7 +75,7 @@ var trendingData=[
     
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/i/0/large/Boat-boat-rockerz-235-V2-SDL552054716-1-2863f.webp",
-            name: "boAt Rockerz 235 v2 with ASAP charging Version 5.0 Bluetooth Headset (Blue)",
+            name: "boAt Rockerz 235 v2 Bluetooth Headset (Blue)",
             strikedprice: "MRP  Rs. 2990",
             price: 1199,
             offer: "60% OFF",
@@ -118,7 +118,7 @@ var trendingData=[
     // 12th
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/r/t/large/Gold-Plated-Stylish-Bracelet-Adjustable-SDL902131379-1-d8bd9.webp",
-            name: "Gold Plated Stylish Bracelet Adjustable OM Design Kada for Men",
+            name: "Gold Plated Bracelet Adjustable OM Design Men",
             strikedprice: "MRP  Rs 249",
             price: 159,
             offer: "36% OFF",
@@ -145,7 +145,7 @@ var trendingData=[
         // 15th
          {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/s/e/large/Ratan_s_Eco_friendly_1_SDL400446124_2_9a609_5c18c-525ca.webp",
-            name: "SRR 1.8 Liter 1800 Watt Stainless Steel Electric Kettle",
+            name: "SRR 1.8 Liter Stainless Steel Electric Kettle",
             strikedprice: "MRP  Rs. 2499",
             price: 649,
             offer: "74% OFF",
@@ -165,7 +165,7 @@ var trendingData=[
         // 17th
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/v/o/large/Imerbela-Organic-Combo-Tester-Kit-SDL518787831-1-db1df.webp",
-            name: "Imerbela Organic Combo Tester Kit Shampoo,Face Wash &amp; Body Wash Face Wash 90 mL Pack of 3",
+            name: "Imerbela Organic Combo Tester Kit 90 mL Pack of 3",
             strikedprice: "MRP  Rs.180",
             price: 120,
             offer: "33% OFF",
@@ -175,7 +175,7 @@ var trendingData=[
     
         {
             image_url:"https://n1h2.sdlcdn.com/imgs/j/b/6/large/AMAZE-SHOPPEE-7-Pcs-Wooden-SDL899574152-1-9d301.webp",
-            name: "Life Roads - 100% Cotton Slim Fit Red Men's Casual Shirt (Pack of 1)",
+            name: "Life Roads - 100% Cotton Slim Fit Red Men's Casual Shirt ",
             strikedprice: "MRP  Rs.2499",
             price: 649,
             offer: "74% OFF",
@@ -202,7 +202,7 @@ var trendingData=[
     {
             image_url:
               "https://n3.sdlcdn.com/imgs/j/r/6/230X258_sharpened/Kids-Cave-Dress-for-girls-SDL433221746-1-2c766.webp",
-            name: "Kids Cave Dress for girls Regular fit Cut Out Peplum Sleeves Knee Length Dress",
+            name: "Kids Cave Dress for girls Regular fit Cut Out Dress",
             strikedprice: "MRP  Rs. 1,699",
             price: 799 ,
             offer: "53% OFF",
@@ -219,7 +219,7 @@ var trendingData=[
          
         {
             image_url:"https://n3.sdlcdn.com/imgs/j/v/g/Montello-Cotton-Best-Friends-Dress-SDL050011730-1-13c04.jpg",
-            name: "Montello Cotton Best Friends Dress set for Baby Girl with Full sleeves Frock Top Jhabla and Full Length Pyjamas",
+            name: "Montello Cotton Dress set for Baby Girl with Frock and Pyjamas",
             strikedprice: "MRP  Rs. 899 ",
             price: 299,
             offer: "67% OFF",
@@ -283,7 +283,7 @@ var trendingData=[
         },
         {
             image_url:"https://n1.sdlcdn.com/imgs/j/x/z/NARPAVI-TRENDS-COLOUR-BLOCKED-BOYS-SDL714875247-1-b3628.jpg",
-            name: "NARPAVI TRENDS COLOUR BLOCKED BOYS CLOTHING SET 3/4th (PACK OF 5)",
+            name: "NARPAVI TRENDS BOYS CLOTHING SET 3/4th (PACK OF 5)",
             strikedprice: "MRP  Rs. 1,299",
             price: 725,
             offer: "44% OFF",
@@ -291,7 +291,7 @@ var trendingData=[
         },
         {
             image_url:"https://n3.sdlcdn.com/imgs/j/g/k/The-Creators-Cotton-Baby-Girl-SDL340959731-1-f17cf.jpeg",
-            name: "The Creators Red , Yellow , Blue , Green and Black Cotton Baby Girl Frocks",
+            name: "The Creators Red , Blue and Black Baby Girl Frocks",
             strikedprice: "MRP  Rs. 999 ",
             price: 549,
             offer: "45% OFF",
@@ -315,7 +315,7 @@ var trendingData=[
         },
         {
             image_url:"https://n4.sdlcdn.com/imgs/k/b/u/230X258_sharpened/KV-Fashion-Baby-Girls-Girls-SDL127482054-1-997d1.webp",
-            name: "KV Fashion Baby Girls & Girls Red Velvet Semi Stitched lehenga Choli",
+            name: "KV Fashion Baby Girls & Girls Red Velvet lehenga Choli",
             strikedprice: "MRP  Rs. 1,999",
             price: 775,
             offer: "61% OFF",
@@ -328,7 +328,7 @@ var trendingData=[
     
         {
             image_url:"https://n1.sdlcdn.com/imgs/i/n/r/large/bhawna-collection-Loard-Shiv-Trishul-SDL890408077-1-86933.jpeg",
-            name: "Bhawna Collection Loard Shiv Trishul Damru Locket With Puchmukhi Rudraksha Mala Gold-plated Brass, Wood For Men &amp; Women",
+            name: "Bhawna Collection Loard Shiv Trishul Damru Locket ",
             strikedprice: "MRP  Rs. 499",
             price: 135,
             offer: "73% OFF",
@@ -397,7 +397,7 @@ var trendingData=[
     
     
     
-    
+    var cartData=JSON.parse(localStorage.getItem("cartitems")) || []
     
     trendingData.map(function(el){
     
@@ -440,13 +440,23 @@ var trendingData=[
     var btn=document.createElement("button")
     btn.innerText="Add to Cart"
     btn.style.cursor="pointer"
+    btn.setAttribute("class","button")
     
     
     btn.addEventListener("click",function(){
-        displayData(el)
+        addtocart(el)
     })
     boxdata.append(imagedata,subbox,pricediv,btn)
     document.querySelector("#arrayofobjectscontainer").append(boxdata)
     
     
     })
+
+     function addtocart(el){
+        console.log(el)
+         cartData.push(el)
+        
+       localStorage.setItem("cartitems",JSON.stringify(cartData))
+       alert("item added to cart");
+        
+       }
