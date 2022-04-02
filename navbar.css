@@ -24,11 +24,10 @@ display: flex;
 justify-content: space-evenly;
 margin-top: 20px;
 font-size: 14px;
-/* border:1px solid blue; */
 margin-top: 5px;
  }
  #navbar2>div:nth-child(1){
-     font-size: 30px;
+     font-size: 50px;
      
  }
  #navbarcontainer{
@@ -106,7 +105,7 @@ margin-top: 5px;
     color:white;
     font-size: 16px;
     /* line-height: 25px; */
-    width:120px;
+    width:100px;
     padding:5px;
     margin-top:10px;
 }
