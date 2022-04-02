@@ -607,7 +607,7 @@ var sevenData = [
     discount: "25%Off",
 },
 ]
-var cartData = JSON.parse(localStorage.getItem("cart")) || []
+var cartData = JSON.parse(localStorage.getItem("cartitems")) || []
 
 kitchenData.map(function(elem){
     var box1 = document.createElement("div");
@@ -653,6 +653,6 @@ kitchenData.map(function(elem){
 function addToCart(elem) {
     console.log(elem)
    cartData.push(elem);
-    localStorage.setItem("cart", JSON.stringify(cartData));
+    localStorage.setItem("cartitems", JSON.stringify(cartData));
     alert("item added to cart")
 } 
