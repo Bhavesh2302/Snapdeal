@@ -4,6 +4,26 @@ var cartData=JSON.parse(localStorage.getItem("cartitems")) || []
 
 
 
+// Total amount
+var total=cartData.reduce(function (sum,el,i,arr){
+
+    return sum+Number(el.price)
+    
+    
+    },0);
+    
+    console.log(total)
+
+
+    // total no of items
+    
+    var length=cartData.length
+    console.log(length)
+    
+    document.querySelector("#p").innerText= `Shoping Cart - Total no of Items :  ${length} `;
+
+    document.querySelector(".button").innerText=`PROCEED TO Pay :Rs ${total}`
+
 cartData.map(function(el,index){
 
 

@@ -336,60 +336,7 @@ var trendingData=[
         },
     
     
-    
-        
-    
-    // 2nd
-    // {image_url : "https://n3.sdlcdn.com/imgs/k/b/m/230X258_sharpened/Bhakarwadi-Black-Art-Silk-Saree-SDL762653447-1-eb79c.webp" ,
-    //   name : "Bhakarwadi - Silk Blend Black",
-    //   price : "319",
-    //   strikedprice :"1799",
-    
-    //  },
-    
-    //  {img_url : "https://n2.sdlcdn.com/imgs/j/t/c/230X258_sharpened/Handloom-Red-Cotton-Silk-Saree-SDL863607435-1-4aafb.webp" ,
-    // name : "Handloom - Silk Blend Red ",
-    // price : " 539",
-    // strikedoffprice :" 1499",
-    //  },
-    
-    //  {img_url : "https://n3.sdlcdn.com/imgs/j/t/f/230X258_sharpened/Panihari-Creations-White-Cotton-Saree-SDL675200204-1-909b4.jpeg" ,
-    // name : "Panihari Creations - 100% Cotton White",
-    // price : " 699",
-    // strikedoffprice :" 1599",
-    //  },
-    
-    //  {img_url : "https://n2.sdlcdn.com/imgs/j/v/j/230X258_sharpened/Bhakarwadi-Blue-Georgette-Saree-Single-SDL094232966-1-9710f.webp" ,
-    // name : "Bhakarwadi - Georgette Multicolor ",
-    // price : " 433",
-    // strikedoffprice :" 1499",
-    //  },
-    
-    //  {img_url : "https://n3.sdlcdn.com/imgs/k/b/d/230X258_sharpened/Hritika-Brown-Georgette-Saree-Single-SDL639620046-1-f9a8b.webp" ,
-    // name : "Hritika - Georgette Brown",
-    // price : " 289",
-    // strikedoffprice :" 1399",
-    //  },
-    
-    //  {img_url : "https://n3.sdlcdn.com/imgs/j/t/b/230X258_sharpened/Bhakarwadi-Grey-Beige-Khadi-Saree-SDL474779609-1-bc712.jpeg" ,
-    // name : "Bhakarwadi - Cotton Blend Multicolor",
-    // price : " 649",
-    // strikedoffprice :" 2399",
-    //  },
-    
-    //  {img_url : "https://n4.sdlcdn.com/imgs/k/b/d/230X258_sharpened/Hritika-Black-Silk-Blend-Saree-SDL606871660-1-b545f.webp" ,
-    // name : "Bhakarwadi - Silk Blend Black With Blouse",
-    // price : " 319",
-    // strikedoffprice :" 1799",
-    //  },
-    
-    //  {img_url : "https://n3.sdlcdn.com/imgs/k/b/m/230X258_sharpened/Bhakarwadi-Black-Art-Silk-Saree-SDL762653447-1-eb79c.webp" ,
-    // name : "Hritika - Silk Blend Black",
-    // price : " 579",
-    // strikedoffprice :" 2999",
-    //  }
-        
-    
+      
      
     
     ]
