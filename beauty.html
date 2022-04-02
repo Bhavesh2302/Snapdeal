@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+
+
+    <!-- CSS file of of same page -->
+
+
+    <style>
+        #contain {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto;
+            gap: 25px;
+        }
+
+        /* 
+        p {
+            margin-top: px;
+        } */
+
+        #contain>div:hover {
+            /* border: 1px solid; */
+            /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+        }
+
+        del {
+            padding-right: 10px;
+            color: #cccccc;
+        }
+
+        span {
+            padding-right: 15px;
+
+        }
+
+        #contain>div>img {
+            width: 95%;
+            height: 55%;
+            /* margin: auto; */
+
+        }
+
+        botton {
+            /* border: 1px solid; */
+            background-color: red;
+            color: white;
+            padding: 4px;
+            border-radius: 5px;
+            margin-left: 68px;
+        }
+    </style>
+</head>
+
+<!-- width: 95%;
+            height: 65%; -->
+
+<Body>
+    <div id="contain">
+        <!-- <img id="image">
+        <P id="para"></P>
+        <span id="price1"></span>
+        <span id="price2"></span>
+        <span id="price3"></span>
+        <div id="star"></div> -->
+
+    </div>
+</Body>
+
+</html>
+
+
+<!-- ARRAY OF OBJECT OF BEAUTY PAGE -->
+
+
+<script>
+    var product = [
+        {
+            id: 1,
+            image: "https://n3.sdlcdn.com/imgs/j/x/z/230X258_sharpened/Colorbar-Face-Primer-Cream-30-SDL705114192-1-f5e71.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 2,
+            image: "https://n3.sdlcdn.com/imgs/k/a/6/230X258_sharpened/matt-look-Color-Intense-Foundation-SDL737742386-1-f44e8.JPG",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+
+        {
+            id: 3,
+            image: "https://n3.sdlcdn.com/imgs/j/u/p/230X258_sharpened/Colors-Queen-CC-Healthy-Glow-SDL487844198-1-f3ec0.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 4,
+            image: "https://n1.sdlcdn.com/imgs/j/y/f/230X258_sharpened/matt-look-Liquid-Foundation-Tan-SDL960487726-1-453f2.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 5,
+            image: "https://n1.sdlcdn.com/imgs/j/l/o/230X258_sharpened/Swiss-Beauty-Primer-Mousse-Foundation-SDL598520184-1-86722.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 6,
+            image: "https://n3.sdlcdn.com/imgs/j/x/r/230X258_sharpened/Globus-Naturals-Aloe-Vera-and-SDL644902710-1-09f74.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 1,
+            image: "https://n3.sdlcdn.com/imgs/j/x/z/230X258_sharpened/Colorbar-Face-Primer-Cream-30-SDL705114192-1-f5e71.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 2,
+            image: "https://n2.sdlcdn.com/imgs/j/x/h/230X258_sharpened/GO-Kashmiri-Brown-Quarter-Walnuts-SDL133519277-1-91961.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+
+        {
+            id: 3,
+            image: "https://n3.sdlcdn.com/imgs/j/u/p/230X258_sharpened/Colors-Queen-CC-Healthy-Glow-SDL487844198-1-f3ec0.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 7,
+            image: "https://n4.sdlcdn.com/imgs/j/y/2/230X258_sharpened/matt-look-Vivid-Matte-Lipstick-SDL691447582-1-61087.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 8,
+            image: "https://n2.sdlcdn.com/imgs/j/a/d/230X258_sharpened/Lenon-Beauty-Matte-Me-Liquid-SDL995314677-1-e3b8c.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 9,
+            image: "https://n2.sdlcdn.com/imgs/k/b/1/230X258_sharpened/Pentasure-HP-High-Protein-Health-SDL223327738-1-dd9dd.png",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 10,
+            image: "https://n1.sdlcdn.com/imgs/j/q/n/large/BoldFit-Boldfit-Curcumin-Complex-Supplements-SDL435526079-1-a9ba7.jpg",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 11,
+            image: "https://n4.sdlcdn.com/imgs/k/d/r/230X258_sharpened/Pro360_1-cc3c5.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 7,
+            image: "https://n4.sdlcdn.com/imgs/j/y/2/230X258_sharpened/matt-look-Vivid-Matte-Lipstick-SDL691447582-1-61087.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 8,
+            image: "https://n2.sdlcdn.com/imgs/j/a/d/230X258_sharpened/Lenon-Beauty-Matte-Me-Liquid-SDL995314677-1-e3b8c.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 12,
+            image: "https://n2.sdlcdn.com/imgs/j/l/z/230X258_sharpened/Omron-Omron-HBF-214-HBF-SDL967406368-1-f6fe3.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 13,
+            image: "https://n3.sdlcdn.com/imgs/j/y/p/230X258_sharpened/Equinox-Equinox-Body-Composition-EQ-SDL564328898-1-3405e.png",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 14,
+            image: "https://n3.sdlcdn.com/imgs/j/u/a/230X258_sharpened/Leeford-Cotton-Crepe-Bandage-10cmx4m-SDL599718086-1-4cca4.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 15,
+            image: "https://n3.sdlcdn.com/imgs/j/x/z/230X258_sharpened/Colorbar-Face-Primer-Cream-30-SDL705114192-1-f5e71.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 16,
+            image: "https://n4.sdlcdn.com/imgs/i/v/g/230X258_sharpened/Original-Goan-Cashew-nut-Kaju-SDL372317911-1-82148.JPG",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 19,
+            image: "https://n2.sdlcdn.com/imgs/k/d/k/230X258_sharpened/XHEAL-Menthol-Infused-Buy-Best-SDL212426596-1-9fb94.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 20,
+            image: "https://n3.sdlcdn.com/imgs/j/x/z/230X258_sharpened/Colorbar-Face-Primer-Cream-30-SDL705114192-1-f5e71.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 19,
+            image: "https://n2.sdlcdn.com/imgs/k/d/k/230X258_sharpened/XHEAL-Menthol-Infused-Buy-Best-SDL212426596-1-9fb94.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 20,
+            image: "https://n3.sdlcdn.com/imgs/j/x/z/230X258_sharpened/Colorbar-Face-Primer-Cream-30-SDL705114192-1-f5e71.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 17,
+            image: "https://n4.sdlcdn.com/imgs/f/8/3/230X258_sharpened/HealthVit-Kozicare-Pack-of-5-SDL404638338-1-d1cd8.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 18,
+            image: "https://n1.sdlcdn.com/imgs/j/x/3/230X258_sharpened/Globus-Naturals-Nourishing-Muskmelon-Body-SDL757330740-1-87624.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 13,
+            image: "https://n3.sdlcdn.com/imgs/j/y/p/230X258_sharpened/Equinox-Equinox-Body-Composition-EQ-SDL564328898-1-3405e.png",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 14,
+            image: "https://n3.sdlcdn.com/imgs/j/u/a/230X258_sharpened/Leeford-Cotton-Crepe-Bandage-10cmx4m-SDL599718086-1-4cca4.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 15,
+            image: "https://n3.sdlcdn.com/imgs/j/x/z/230X258_sharpened/Colorbar-Face-Primer-Cream-30-SDL705114192-1-f5e71.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 16,
+            image: "https://n4.sdlcdn.com/imgs/i/v/g/230X258_sharpened/Original-Goan-Cashew-nut-Kaju-SDL372317911-1-82148.JPG",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 17,
+            image: "https://n4.sdlcdn.com/imgs/f/8/3/230X258_sharpened/HealthVit-Kozicare-Pack-of-5-SDL404638338-1-d1cd8.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 19,
+            image: "https://n2.sdlcdn.com/imgs/k/d/k/230X258_sharpened/XHEAL-Menthol-Infused-Buy-Best-SDL212426596-1-9fb94.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 20,
+            image: "https://n3.sdlcdn.com/imgs/j/x/p/230X258_sharpened/aromasg1-5e404.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 4,
+            image: "https://n1.sdlcdn.com/imgs/j/y/f/230X258_sharpened/matt-look-Liquid-Foundation-Tan-SDL960487726-1-453f2.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+        {
+            id: 5,
+            image: "https://n1.sdlcdn.com/imgs/j/l/o/230X258_sharpened/Swiss-Beauty-Primer-Mousse-Foundation-SDL598520184-1-86722.webp",
+            text: "colorbar perfect match prime-30 MI",
+            deleteRs: "Rs.850",
+            currentRs: "Rs.650",
+            disount: "20%Off",
+            rating: " https://t4.ftcdn.net/jpg/03/26/39/01/240_F_326390182_mMg2oUyEfih7E2cHbEvMebwgiqjhIitu.jpg",
+            views: "210"
+        },
+    ]
+
+
+    //  JS FILE OF SAME PAGE
+
+
+    var carddata = JSON.parse(localStorage.getItem("dataadded")) || []
+
+    product.map(function (elem) {
+
+        var box = document.createElement("div")
+        // document.querySelector("box").addEventListener("class","main")
+
+        var Img = document.createElement("img")
+        Img.src = elem.image
+
+        var para1 = document.createElement("p")
+        para1.innerText = elem.text
+
+        var box2 = document.createElement("div")
+        // box2.setAttribute("id","")
+        box2.style.height = "55px"
+        box2.style.width = "200px"
+        box2.style.marginLeft = "15px"
+        box2.style.fontSize = "18px"
+        // box2.style.paddingBottom = "5px"
+
+
+
+        var span1 = document.createElement("del")
+        span1.innerText = elem.deleteRs
+
+        var span2 = document.createElement("span")
+        span2.innerText = elem.currentRs
+
+        var span3 = document.createElement("span")
+        span3.innerText = elem.disount
+        span3.style.color = "#999999"
+        span3.style.height = "20px"
+        span3.style.width = "45px"
+        span3.style.border = "1px solid"
+        span3.style.paddingLeft = "8px"
+        span3.style.paddingRight = "8px"
+
+        var box1 = document.createElement("div")
+        box1.src = elem.rating
+
+        var boxbtn = document.createElement("div")
+        // boxbtn.setAttribute("")
+        boxbtn.style.height = "50px"
+        boxbtn.style.width = "220px"
+        boxbtn.style.paddingTop = "15px"
+        // boxbtn.style.border = "1px solid"
+
+        // boxbtn.style.margin = "auto"
+        // boxbtn.style.margin = "10px"
+        // boxbtn.style.marginTop = "20px"
+
+
+
+        var para2 = document.createElement("span")
+        para2.innerText = elem.views
+        // para2.style.marginleft = "100px"
+
+        var btn = document.createElement("botton")
+        btn.innerText = "Add to card"
+        // btn.src = <i class="fa-light fa-cart-plus"></i>
+        // btn.style.border = "1px solid"
+        btn.style.marginleft = "100px"
+        btn.addEventListener("click", function () {
+            product(elem)
+        })
+        function product(elem) {
+            carddata.push(elem)
+        }
+
+        boxbtn.append(para2, btn)
+
+        box2.append(para1, span1, span2, span3, box1, boxbtn)
+        box.append(Img, box2)
+
+        document.querySelector("#contain").append(box)
+    })
+
+    localStorage.setItem("dataadded", JSON.stringify("carddata"))
+</script>
+
+<!-- </html> -->
