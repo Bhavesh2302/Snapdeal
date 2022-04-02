@@ -27,6 +27,9 @@ font-size: 14px;
 /* border:1px solid blue; */
 margin-top: 5px;
  }
+ /* #navbar2>div{
+     border:2px solid black
+ } */
  #navbar2>div:nth-child(1){
      font-size: 30px;
      
@@ -52,7 +55,7 @@ margin-top: 5px;
     /* margin-bottom:10px; */
   }
   .inputsearch{
-      width:650px;
+      width:500px;
       height:30px;
   }
   
@@ -153,6 +156,10 @@ margin-left:10px;
     background-color: #e40046;
     color:white;
     border:none;
+    text-decoration: none;
+}
+.cart2>a{
+    text-decoration: none;
 }
 .search{
     background-color: black;
@@ -191,6 +198,9 @@ position:relative;
     box-sizing: border-box;
     /* height:750px; */
 
+}
+.register{
+    margin-right:30px;
 }
 
 
@@ -313,7 +323,7 @@ width:80%;
   }
   .slideshow-container>div>img{
       height:350px;
-      width:50%;
+      width:100%;
   }
 
   
