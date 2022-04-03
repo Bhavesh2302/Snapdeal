@@ -106,7 +106,7 @@ document.querySelector("tbody").append(trow)
 function removeItem(el, index) {
     console.log(el, index);
     cart.splice(index, 1);
-    console.log(cartData);
+   
     localStorage.setItem("cartitems", JSON.stringify(cart));
     window.location.reload();
   }
