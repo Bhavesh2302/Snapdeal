@@ -1,11 +1,11 @@
 
 
-var cartData=JSON.parse(localStorage.getItem("cartitems")) || []
+var cart=JSON.parse(localStorage.getItem("cartitems")) || []
 
 
 
 // Total amount
-var total=cartData.reduce(function (sum,el,i,arr){
+var total=cart.reduce(function (sum,el,index,arr){
 
     return sum+Number(el.price)
     
@@ -17,14 +17,14 @@ var total=cartData.reduce(function (sum,el,i,arr){
 
     // total no of items
     
-    var length=cartData.length
+    var length=cart.length
     console.log(length)
     
     document.querySelector("#p").innerText= `Shoping Cart - Total no of Items :  ${length} `;
 
     document.querySelector(".button").innerText=`PROCEED TO Pay :Rs ${total}`
 
-cartData.map(function(el,index){
+cart.map(function(el,index){
 
 
     var trow=document.createElement("tr")
@@ -105,9 +105,9 @@ document.querySelector("tbody").append(trow)
 
 function removeItem(el, index) {
     console.log(el, index);
-    cartData.splice(index, 1);
+    cart.splice(index, 1);
     console.log(cartData);
-    localStorage.setItem("cartitems", JSON.stringify(cartData));
+    localStorage.setItem("cartitems", JSON.stringify(cart));
     window.location.reload();
   }
 
