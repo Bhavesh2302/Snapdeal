@@ -798,7 +798,7 @@ window.addEventListener("load", function(){
     displayKidsData(kidsData);
 });
 
-    var cartArr = JSON.parse(localStorage("cartitems")) || [];     
+    var cartArr = JSON.parse(localStorage.getItem("cartitems")) || [];     
 
 function displayKidsData(kidsData)
 {
