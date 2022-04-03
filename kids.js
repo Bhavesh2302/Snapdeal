@@ -798,7 +798,7 @@ window.addEventListener("load", function(){
     displayKidsData(kidsData);
 });
 
-    var cartArr = [];
+    var cartArr = JSON.parse(localStorage("cartitems")) || [];     
 
 function displayKidsData(kidsData)
 {
