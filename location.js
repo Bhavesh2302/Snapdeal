@@ -33,4 +33,6 @@ console.log(locationData)
 localStorage.setItem("addressDetails",JSON.stringify(locationData))
 window.location.href="payment.html"
 
+window.location.href = "payment.html";
+
 }
