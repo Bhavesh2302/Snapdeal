@@ -1,38 +1,38 @@
 var sevenData = [
     {
     id:1,
-    img: "https://i3.sdlcdn.com/img/web_csf_top_navigation09/WaterPurifiers_Widget.jpg",
+    image_url: "https://i3.sdlcdn.com/img/web_csf_top_navigation09/WaterPurifiers_Widget.jpg",
     name: "water purifiers",
     },
     
     {
     id:2,
-    img: "https://i3.sdlcdn.com/img/web_csf_top_navigation09/GasStove_Widget.jpg",
+    image_url: "https://i3.sdlcdn.com/img/web_csf_top_navigation09/GasStove_Widget.jpg",
     name: "gas stove" ,
     },
     {
     id:3,
-    img: "https://i2.sdlcdn.com/img/web_csf_top_navigation09/JuicerMixer_Widget.jpg",
+    image_url: "https://i2.sdlcdn.com/img/web_csf_top_navigation09/JuicerMixer_Widget.jpg",
     name: "Juicer Mixer Grinder",
     },
     {
     id:4,
-    img: "https://i1.sdlcdn.com/img/web_csf_top_navigation09/Chiminey_Widget.jpg",
+    image_url: "https://i1.sdlcdn.com/img/web_csf_top_navigation09/Chiminey_Widget.jpg",
     name: "Chimneys",
     },
     {
     id:5,
-    img: "https://n2.sdlcdn.com/imgs/d/0/0/kettle_CSF_topnavimg-fbb07.jpg",
+    image_url: "https://n2.sdlcdn.com/imgs/d/0/0/kettle_CSF_topnavimg-fbb07.jpg",
     name:"Electric Kettles",
     },
     {
     id:6,
-    img:"https://i4.sdlcdn.com/img/web_csf_top_navigation09/InductionCooktops_Widget.jpg",
+    image_url:"https://i4.sdlcdn.com/img/web_csf_top_navigation09/InductionCooktops_Widget.jpg",
     name:"Introduction Cookups",
     },
     {
     id:7,
-    img:"https://i2.sdlcdn.com/img/web_csf_top_navigation09/ChoppersBlenders_Widget.jpg",
+    image_url:"https://i2.sdlcdn.com/img/web_csf_top_navigation09/ChoppersBlenders_Widget.jpg",
     name:"Choppers & Blender",
     },
     ]
@@ -41,7 +41,7 @@ var sevenData = [
         var box = document.createElement("div");
 
         var img = document.createElement("img");
-        img.src=elem.img;
+        img.src=elem.image_url;
 
         var name = document.createElement("p");
         name.textContent=elem.name;
@@ -53,7 +53,7 @@ var sevenData = [
    var newData = [
     {
     id:32,
-    img:'https://n2.sdlcdn.com/imgs/g/3/1/large/Prestige-NA-18-Ltr-Gravity-SDL678101845-1-38c9f.jpg',
+    image_url:'https://n2.sdlcdn.com/imgs/g/3/1/large/Prestige-NA-18-Ltr-Gravity-SDL678101845-1-38c9f.jpg',
     name: 'Prestige 18 Ltr Gravity Water Purifier',
     discount:'33%OFF',
     strikedOffPrice: '2965',
@@ -62,7 +62,7 @@ var sevenData = [
     
     {
         id:33,
-    img: 'https://n3.sdlcdn.com/imgs/j/v/x/large/SDL167127229-a24d5.jpg',
+    image_url: 'https://n3.sdlcdn.com/imgs/j/v/x/large/SDL167127229-a24d5.jpg',
     name: 'Good Flame 2 burner ms nano gas stove with cast iron burner',
     discount:'63%OFF',
     strikedOffPrice:'4099',
@@ -71,7 +71,7 @@ var sevenData = [
 
     {
         id:34,
-    img: 'https://n2.sdlcdn.com/imgs/a/h/q/Bajaj-FX-11-Food-Processor-1721454-1-61069.jpg',
+    image_url: 'https://n2.sdlcdn.com/imgs/a/h/q/Bajaj-FX-11-Food-Processor-1721454-1-61069.jpg',
     name: 'Bajaj FX-11 Food Processor',
     discount:'33%OFF',
     strikedOffPrice: '8000',
@@ -80,7 +80,7 @@ var sevenData = [
 
     {
         id:35,
-    img: 'https://n3.sdlcdn.com/imgs/i/q/1/large/cello1-ed569.jpg',
+    image_url: 'https://n3.sdlcdn.com/imgs/i/q/1/large/cello1-ed569.jpg',
     name: 'Cello Cook-N-Serve-600 0.5 Ltr Rice Cookers Rice Cooker',
     discount:'21%OFF',
     strikedOffPrice: '6000',
@@ -89,7 +89,7 @@ var sevenData = [
 
     {
         id:36,
-    img: 'https://n3.sdlcdn.com/imgs/c/x/u/large/629823870949_2-513ba.jpg',
+    image_url: 'https://n3.sdlcdn.com/imgs/c/x/u/large/629823870949_2-513ba.jpg',
     name: 'Pigeon Favorite Blackline Cook Top 2 Burner',
     discount:'54%OFF',
     strikedOffPrice: '5000',
@@ -98,7 +98,7 @@ var sevenData = [
 
     // {
     //     id:37,
-    // img: 'https://n4.sdlcdn.com/imgs/b/u/v/large/Prestige-Ace-food-processor-01-SDL649988567-1-19b49.jpg',
+    // image_url: 'https://n4.sdlcdn.com/imgs/b/u/v/large/Prestige-Ace-food-processor-01-SDL649988567-1-19b49.jpg',
     // name: 'Prestige Ace Food Processor Brown',
     // discount:'23%OFF',
     // strikedOffPrice: '6000',
@@ -129,7 +129,7 @@ var sevenData = [
        console.log(box)
 
        var img = document.createElement("img");
-       img.src=elem.img;
+       img.src=elem.image_url;
 
        var name = document.createElement("p");
        name.innerText=elem.name;
@@ -157,7 +157,7 @@ var sevenData = [
     var kitchenData = [
 {
     id:8,
-    img: 'https://n3.sdlcdn.com/imgs/j/p/7/230X258_sharpened/GRAND-PLUS-EPIC-17-Ltr-SDL027334234-1-50a2b.jpeg',
+    image_url: 'https://n3.sdlcdn.com/imgs/j/p/7/230X258_sharpened/GRAND-PLUS-EPIC-17-Ltr-SDL027334234-1-50a2b.jpeg',
     name: 'GRAND PLUS EPIC 17 Ltr RO + UV + UF + TDS Water Purifier',
     strikedOffPrice: '16500',
     price: '6114',
@@ -166,7 +166,7 @@ var sevenData = [
 
 {
     id:9,
-    img: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
+    image_url: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
     name:'ZunVolt ABS Plastic Body 500 Watt 3 Jar Mixer Grinder',
     strikedOffPrice: '3249',
     price: '1249',
@@ -175,7 +175,7 @@ var sevenData = [
 
 {
     id:10,
-    img:'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
+    image_url:'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
     name:'Goodflame 3 burner ms kwid plus digital gas stove with brass burner(design must be availabality)',
     strikedOffPrice:'6499',
     price:'2099',
@@ -184,7 +184,7 @@ var sevenData = [
 
 {
     id:11,
-    img: 'https://n3.sdlcdn.com/imgs/d/6/c/230X258_sharpened/Royal-Aquafresh-Aqua-Swift-ROUVUF-SDL342168927-1-09fdd.webp',
+    image_url: 'https://n3.sdlcdn.com/imgs/d/6/c/230X258_sharpened/Royal-Aquafresh-Aqua-Swift-ROUVUF-SDL342168927-1-09fdd.webp',
     name:'Aquagrand AQUA SWIFT RO+UF+UV+MINERAL+TDS CONTROLLER 10 Ltr ROUVUF Water Purifier',
     strikedOffPrice:'16500',
     price: '6246',
@@ -193,7 +193,7 @@ var sevenData = [
 
 {
     id:12,
-    img: 'https://n1.sdlcdn.com/imgs/k/c/j/230X258_sharpened/MUSKPURE-Pro-Star-12-Ltr-SDL921757271-1-97039.webp',
+    image_url: 'https://n1.sdlcdn.com/imgs/k/c/j/230X258_sharpened/MUSKPURE-Pro-Star-12-Ltr-SDL921757271-1-97039.webp',
     name:'MUSKPURE diamond Star 12 Ltr RO + UV + Copper + Alkaline + TDS Controller Water Purifier',
     strikedOffPrice:'15999',
     price: '5799',
@@ -202,7 +202,7 @@ var sevenData = [
 
 {
     id:13,
-    img: 'https://n2.sdlcdn.com/imgs/k/c/h/230X258_sharpened/Maharaja-Whiteline-Stellar-Plus-500-SDL842179092-1-472ad.webp',
+    image_url: 'https://n2.sdlcdn.com/imgs/k/c/h/230X258_sharpened/Maharaja-Whiteline-Stellar-Plus-500-SDL842179092-1-472ad.webp',
     name:'Eslite Chutney Jar 650 Watt 3 Jar Mixer Grinde',
     strikedOffPrice: '1699',
     price: '1099',
@@ -212,7 +212,7 @@ var sevenData = [
     
 {
     id:14,
-    img: 'https://n3.sdlcdn.com/imgs/k/c/s/230X258_sharpened/Online-3burner-SDL404159912-1-f993e.png',
+    image_url: 'https://n3.sdlcdn.com/imgs/k/c/s/230X258_sharpened/Online-3burner-SDL404159912-1-f993e.png',
     name:'Blowhot Online 3 burner auto gas stove with top glass',
     strikedOffPrice:'5466',
     price: '2332',
@@ -221,7 +221,7 @@ var sevenData = [
 
 {
     id:15,
-    img: 'https://n3.sdlcdn.com/imgs/k/e/g/230X258_sharpened/ZunVolt-ABS-Plastic-Body-500-SDL427712787-1-fd09e.webp',
+    image_url: 'https://n3.sdlcdn.com/imgs/k/e/g/230X258_sharpened/ZunVolt-ABS-Plastic-Body-500-SDL427712787-1-fd09e.webp',
     name:'ZunVolt ABS Plastic Body 750 Watt 3 Jar Mixer Grinder',
     strikedOffPrice:'4344',
     price: '1599',
@@ -230,7 +230,7 @@ var sevenData = [
 
 {
     id:16,
-    img: 'https://n4.sdlcdn.com/imgs/j/d/w/230X258_sharpened/Evaahub-Electric-rechargable-LATEST-Automatic-SDL450280902-1-20b3c.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/d/w/230X258_sharpened/Evaahub-Electric-rechargable-LATEST-Automatic-SDL450280902-1-20b3c.webp',
     name:'Automatic Wireless Electric Rechargeable Drinking Water Dispenser Pump for 20 Liter Bottle Can with',
     strikedOffPrice:'544',
     price: '234',
@@ -239,7 +239,7 @@ var sevenData = [
 
 {
     id:17,
-    img: 'https://n3.sdlcdn.com/imgs/d/6/c/230X258_sharpened/Royal-Aquafresh-Aqua-Swift-ROUVUF-SDL342168927-1-09fdd.webp',
+    image_url: 'https://n3.sdlcdn.com/imgs/d/6/c/230X258_sharpened/Royal-Aquafresh-Aqua-Swift-ROUVUF-SDL342168927-1-09fdd.webp',
     name:'MUSKPURE Pride 10 Ltr RO + UF + UV + MAT Water Purifier',
     strikedOffPrice:'14999',
     price:'5655' ,
@@ -248,7 +248,7 @@ var sevenData = [
 
 {
     id:18,
-    img: 'https://n4.sdlcdn.com/imgs/j/u/o/230X258_sharpened/GOODFLAME-4-BURNER-MS-RUNNER-SDL186150103-1-e77bb.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/u/o/230X258_sharpened/GOODFLAME-4-BURNER-MS-RUNNER-SDL186150103-1-e77bb.webp',
     name:'Goodflame 4 Burner Kwid Gas Stove ISI Quality Mark With 1 Years Warranty',
     strikedOffPrice:'9890',
     price: '2455',
@@ -257,7 +257,7 @@ var sevenData = [
 
 {   
     id:19,
-     img: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
+     image_url: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
     name:'Prestige Teon Watt 1 Jar Mixer Grinder',
     strikedOffPrice:'1245',
     price: '998',
@@ -266,7 +266,7 @@ var sevenData = [
 
 {
     id:20,
-    img: 'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
+    image_url: 'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
     name:'GOODFLAME 3BURNER BK PHOTON ISI QUALITY MARK 1 YEAR WARRANTY',
     strikedOffPrice:'5999',
     price: '2123',
@@ -275,7 +275,7 @@ var sevenData = [
 
 {
     id:21,
-    img: 'https://n2.sdlcdn.com/imgs/i/1/u/230X258_sharpened/MJ-FOREVER-LATEST-Automatic-water-SDL719529912-2-02fa8.jpeg',
+    image_url: 'https://n2.sdlcdn.com/imgs/i/1/u/230X258_sharpened/MJ-FOREVER-LATEST-Automatic-water-SDL719529912-2-02fa8.jpeg',
     name:'Automatic Wireless Electric Rechargeable Drinking Water Dispenser Pump for 20 Liter Bottle Can',
     strikedOffPrice:'599',
     price: '259',
@@ -284,7 +284,7 @@ var sevenData = [
 
 {
     id:22,
-    img: 'https://n3.sdlcdn.com/imgs/i/1/p/230X258_sharpened/ND-BROTHERS-Electric-Dispenser-20-SDL881235933-1-4b5dd.jpeg',
+    image_url: 'https://n3.sdlcdn.com/imgs/i/1/p/230X258_sharpened/ND-BROTHERS-Electric-Dispenser-20-SDL881235933-1-4b5dd.jpeg',
     name:'The Indus Valley Copper 8 liter Water Dispenser',
     strikedOffPrice:'4999',
     price: '2488',
@@ -293,7 +293,7 @@ var sevenData = [
 
 {
     id:23,
-    img: 'https://n2.sdlcdn.com/imgs/k/e/q/230X258_sharpened/Prestige-Regal-750-Watt-4-SDL557794757-1-eaf11.jpeg',
+    image_url: 'https://n2.sdlcdn.com/imgs/k/e/q/230X258_sharpened/Prestige-Regal-750-Watt-4-SDL557794757-1-eaf11.jpeg',
     name:'Prestige Express PEX 3.0 350 Watt 2 Jar Mixer Grinder',
     strikedOffPrice:'3445',
     price: '2411',
@@ -302,7 +302,7 @@ var sevenData = [
 
 {
     id:24,
-    img: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
+    image_url: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
     name:'Digital TDS Meter for Water Purity Test',
     strikedOffPrice:'699',
     price: '229',
@@ -311,7 +311,7 @@ var sevenData = [
 
 {
     id:25,
-    img: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
     name:'Kitchen tap extension (Pack of 1) with Tightening Clamp ,Assorted Colors',
     strikedOffPrice:'499',
     price: '179',
@@ -320,7 +320,7 @@ var sevenData = [
 
 {
     id:26,
-    img: 'https://n4.sdlcdn.com/imgs/d/8/y/230X258_sharpened/Concord-1-8-Litre-1-SDL002549899-1-9f01c.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/d/8/y/230X258_sharpened/Concord-1-8-Litre-1-SDL002549899-1-9f01c.webp',
     name: 'Concord TPSK 0818 1.8 Liter 1500 Watt Stainless Steel Electric Kettle',
     strikedOffPrice:'1199',
     price:'824',
@@ -329,7 +329,7 @@ var sevenData = [
 
 {
     id:27,
-    img: 'https://n1.sdlcdn.com/imgs/j/e/z/230X258_sharpened/Havells-Aqua-Plus-Black-1-SDL006490749-1-66c7f.webp',
+    image_url: 'https://n1.sdlcdn.com/imgs/j/e/z/230X258_sharpened/Havells-Aqua-Plus-Black-1-SDL006490749-1-66c7f.webp',
     name:'Havells Aqua Plus-Black 1.2 Liter 1500 Watt Stainless ,Steel Electric Kettle',
     strikedOffPrice:'2998',
     price: '1499',
@@ -338,7 +338,7 @@ var sevenData = [
 
 {
     id:28,
-    img: 'https://n4.sdlcdn.com/imgs/j/v/x/230X258_sharpened/SDL150769155_imresizer-73bad.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/v/x/230X258_sharpened/SDL150769155_imresizer-73bad.webp',
     name:'GOODFLAME 4 BURNER SS STAR (R) GAS STOVE WITH BRASS BURNER',
     strikedOffPrice: '8000',
     price: '6536',
@@ -346,7 +346,7 @@ var sevenData = [
 },
 
 {id:29,
-    img: 'https://n2.sdlcdn.com/imgs/j/q/x/230X258_sharpened/Aryanveda-Insta-Glow-Micellar-Water-SDL827025758-1-5a978.png',
+    image_url: 'https://n2.sdlcdn.com/imgs/j/q/x/230X258_sharpened/Aryanveda-Insta-Glow-Micellar-Water-SDL827025758-1-5a978.png',
     name:'GE Filtration 9 inches Candle filter suitable for all water purifier+Sediment Filter,RO filter candle-Pack of 4 pcs candle filter',
     strikedOffPrice:'799',
     price: '299',
@@ -355,7 +355,7 @@ var sevenData = [
 
 {
     id:30,
-    img: 'https://n4.sdlcdn.com/imgs/j/d/v/230X258_sharpened/RO-Tap-Kent-Type-SDL606932130-1-380a2.jpeg',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/d/v/230X258_sharpened/RO-Tap-Kent-Type-SDL606932130-1-380a2.jpeg',
     name: 'RO Tap Kent Type',
     strikedOffPrice: '850',
     price: '299',
@@ -365,7 +365,7 @@ var sevenData = [
 
 {
     id:31,
-    img: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
+    image_url: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
     name:'GE Filtration PH meter for testing the ph level/Digital LCD meter for measure accurate PH level/High Accuracy with 0.00-14.00ph-Pocket',
     strikedOffPrice:'1899',
     price: '519',
@@ -374,7 +374,7 @@ var sevenData = [
 
 {
     id:32,
-    img: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
     name:'Kitchen tap extension (Pack of 1) with Tightening Clamp Assorted Colors by Trending Tail',
     strikedOffPrice: '499',
     price: '179',
@@ -383,7 +383,7 @@ var sevenData = [
 
 {
     id:8,
-    img: 'https://n3.sdlcdn.com/imgs/j/p/7/230X258_sharpened/GRAND-PLUS-EPIC-17-Ltr-SDL027334234-1-50a2b.jpeg',
+    image_url: 'https://n3.sdlcdn.com/imgs/j/p/7/230X258_sharpened/GRAND-PLUS-EPIC-17-Ltr-SDL027334234-1-50a2b.jpeg',
     name: 'GRAND PLUS EPIC 17 Ltr RO + UV + UF + TDS Water Purifier',
     strikedOffPrice: 'Rs16500',
     price: '6114',
@@ -392,7 +392,7 @@ var sevenData = [
 
 {
     id:9,
-    img: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
+    image_url: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
     name:'ZunVolt ABS Plastic Body 500 Watt 3 Jar Mixer Grinder',
     strikedOffPrice: 'Rs3249',
     price: '1249',
@@ -401,7 +401,7 @@ var sevenData = [
 
 {
     id:10,
-    img:'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
+    image_url:'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
     name:'Goodflame 3 burner ms kwid plus digital gas stove with brass burner(design must be availabality)',
     strikedOffPrice:'6499',
     price:'2099',
@@ -410,7 +410,7 @@ var sevenData = [
 
 {
     id:11,
-    img: 'https://n2.sdlcdn.com/imgs/h/a/6/230X258_sharpened/image1-b28be.JPG',
+    image_url: 'https://n2.sdlcdn.com/imgs/h/a/6/230X258_sharpened/image1-b28be.JPG',
     name:'Aquagrand AQUA SWIFT RO+UF+UV+MINERAL+TDS CONTROLLER 10 Ltr ROUVUF Water Purifier',
     strikedOffPrice:'16500',
     price: '6246',
@@ -419,7 +419,7 @@ var sevenData = [
 
 {
     id:12,
-    img: 'https://n1.sdlcdn.com/imgs/k/c/j/230X258_sharpened/MUSKPURE-Pro-Star-12-Ltr-SDL921757271-1-97039.webp',
+    image_url: 'https://n1.sdlcdn.com/imgs/k/c/j/230X258_sharpened/MUSKPURE-Pro-Star-12-Ltr-SDL921757271-1-97039.webp',
     name:'MUSKPURE diamond Star 12 Ltr RO + UV + Copper + Alkaline + TDS Controller Water Purifier',
     strikedOffPrice:'15999',
     price: '5799',
@@ -428,7 +428,7 @@ var sevenData = [
 
 {
     id:13,
-    img: 'https://n2.sdlcdn.com/imgs/k/c/h/230X258_sharpened/Maharaja-Whiteline-Stellar-Plus-500-SDL842179092-1-472ad.webp',
+    image_url: 'https://n2.sdlcdn.com/imgs/k/c/h/230X258_sharpened/Maharaja-Whiteline-Stellar-Plus-500-SDL842179092-1-472ad.webp',
     name:'Eslite Chutney Jar 650 Watt 3 Jar Mixer Grinde',
     strikedOffPrice: '1699',
     price: '1099',
@@ -438,7 +438,7 @@ var sevenData = [
     
 {
     id:14,
-    img: 'https://n3.sdlcdn.com/imgs/k/c/s/230X258_sharpened/Online-3burner-SDL404159912-1-f993e.png',
+    image_url: 'https://n3.sdlcdn.com/imgs/k/c/s/230X258_sharpened/Online-3burner-SDL404159912-1-f993e.png',
     name:'Blowhot Online 3 burner auto gas stove with top glass',
     strikedOffPrice:'5466',
     price: '2332',
@@ -447,7 +447,7 @@ var sevenData = [
 
 {
     id:15,
-    img: 'https://n3.sdlcdn.com/imgs/k/e/g/230X258_sharpened/ZunVolt-ABS-Plastic-Body-500-SDL427712787-1-fd09e.webp',
+    image_url: 'https://n3.sdlcdn.com/imgs/k/e/g/230X258_sharpened/ZunVolt-ABS-Plastic-Body-500-SDL427712787-1-fd09e.webp',
     name:'ZunVolt ABS Plastic Body 750 Watt 3 Jar Mixer Grinder',
     strikedOffPrice:'4344',
     price: '1599',
@@ -456,7 +456,7 @@ var sevenData = [
 
 {
     id:16,
-    img: 'https://n4.sdlcdn.com/imgs/j/d/w/230X258_sharpened/Evaahub-Electric-rechargable-LATEST-Automatic-SDL450280902-1-20b3c.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/d/w/230X258_sharpened/Evaahub-Electric-rechargable-LATEST-Automatic-SDL450280902-1-20b3c.webp',
     name:'Automatic Wireless Electric Rechargeable Drinking Water Dispenser Pump for 20 Liter Bottle Can with',
     strikedOffPrice:'544',
     price: '234',
@@ -465,7 +465,7 @@ var sevenData = [
 
 {
     id:17,
-    img: 'https://n3.sdlcdn.com/imgs/d/6/c/230X258_sharpened/Royal-Aquafresh-Aqua-Swift-ROUVUF-SDL342168927-1-09fdd.webp',
+    image_url: 'https://n3.sdlcdn.com/imgs/d/6/c/230X258_sharpened/Royal-Aquafresh-Aqua-Swift-ROUVUF-SDL342168927-1-09fdd.webp',
     name:'MUSKPURE Pride 10 Ltr RO + UF + UV + MAT Water Purifier',
     strikedOffPrice:'14999',
     price:'5655' ,
@@ -474,7 +474,7 @@ var sevenData = [
 
 {
     id:18,
-    img: 'https://n4.sdlcdn.com/imgs/j/u/o/230X258_sharpened/GOODFLAME-4-BURNER-MS-RUNNER-SDL186150103-1-e77bb.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/u/o/230X258_sharpened/GOODFLAME-4-BURNER-MS-RUNNER-SDL186150103-1-e77bb.webp',
     name:'Goodflame 4 Burner Kwid Gas Stove ISI Quality Mark With 1 Years Warranty',
     strikedOffPrice:'9890',
     price: '2455',
@@ -483,7 +483,7 @@ var sevenData = [
 
 {   
     id:19,
-     img: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
+     image_url: 'https://n1.sdlcdn.com/imgs/k/d/v/230X258_sharpened/Prestige-Flair-Spl-550-Watt-SDL488651589-1-c4fb7.webp',
     name:'Prestige Teon Watt 1 Jar Mixer Grinder',
     strikedOffPrice:'1245',
     price: '998',
@@ -492,7 +492,7 @@ var sevenData = [
 
 {
     id:20,
-    img: 'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
+    image_url: 'https://n2.sdlcdn.com/imgs/j/e/l/230X258_sharpened/Khaitan-3-Burner-BP-JIO-SDL373176693-1-f7fcf.jpeg',
     name:'GOODFLAME 3BURNER BK PHOTON ISI QUALITY MARK 1 YEAR WARRANTY',
     strikedOffPrice:'5999',
     price: '2123',
@@ -501,7 +501,7 @@ var sevenData = [
 
 {
     id:21,
-    img: 'https://n2.sdlcdn.com/imgs/i/1/u/230X258_sharpened/MJ-FOREVER-LATEST-Automatic-water-SDL719529912-2-02fa8.jpeg',
+    image_url: 'https://n2.sdlcdn.com/imgs/i/1/u/230X258_sharpened/MJ-FOREVER-LATEST-Automatic-water-SDL719529912-2-02fa8.jpeg',
     name:'Automatic Wireless Electric Rechargeable Drinking Water Dispenser Pump for 20 Liter Bottle Can',
     strikedOffPrice:'599',
     price: '259',
@@ -510,7 +510,7 @@ var sevenData = [
 
 {
     id:22,
-    img: 'https://n3.sdlcdn.com/imgs/i/1/p/230X258_sharpened/ND-BROTHERS-Electric-Dispenser-20-SDL881235933-1-4b5dd.jpeg',
+    image_url: 'https://n3.sdlcdn.com/imgs/i/1/p/230X258_sharpened/ND-BROTHERS-Electric-Dispenser-20-SDL881235933-1-4b5dd.jpeg',
     name:'The Indus Valley Copper 8 liter Water Dispenser',
     strikedOffPrice:'4999',
     price: '2488',
@@ -519,7 +519,7 @@ var sevenData = [
 
 {
     id:23,
-    img: 'https://n2.sdlcdn.com/imgs/k/e/q/230X258_sharpened/Prestige-Regal-750-Watt-4-SDL557794757-1-eaf11.jpeg',
+    image_url: 'https://n2.sdlcdn.com/imgs/k/e/q/230X258_sharpened/Prestige-Regal-750-Watt-4-SDL557794757-1-eaf11.jpeg',
     name:'Prestige Express PEX 3.0 350 Watt 2 Jar Mixer Grinder',
     strikedOffPrice:'3445',
     price: '2411',
@@ -528,7 +528,7 @@ var sevenData = [
 
 {
     id:24,
-    img: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
+    image_url: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
     name:'Digital TDS Meter for Water Purity Test',
     strikedOffPrice:'699',
     price: '229',
@@ -537,7 +537,7 @@ var sevenData = [
 
 {
     id:25,
-    img: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
     name:'Kitchen tap extension (Pack of 1) with Tightening Clamp ,Assorted Colors',
     strikedOffPrice:'499',
     price: '179',
@@ -546,7 +546,7 @@ var sevenData = [
 
 {
     id:26,
-    img: 'https://n4.sdlcdn.com/imgs/d/8/y/230X258_sharpened/Concord-1-8-Litre-1-SDL002549899-1-9f01c.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/d/8/y/230X258_sharpened/Concord-1-8-Litre-1-SDL002549899-1-9f01c.webp',
     name: 'Concord TPSK 0818 1.8 Liter 1500 Watt Stainless Steel Electric Kettle',
     strikedOffPrice:'1199',
     price:'824',
@@ -555,7 +555,7 @@ var sevenData = [
 
 {
     id:27,
-    img: 'https://n1.sdlcdn.com/imgs/j/e/z/230X258_sharpened/Havells-Aqua-Plus-Black-1-SDL006490749-1-66c7f.webp',
+    image_url: 'https://n1.sdlcdn.com/imgs/j/e/z/230X258_sharpened/Havells-Aqua-Plus-Black-1-SDL006490749-1-66c7f.webp',
     name:'Havells Aqua Plus-Black 1.2 Liter 1500 Watt Stainless ,Steel Electric Kettle',
     strikedOffPrice:'2998',
     price: '1499',
@@ -564,7 +564,7 @@ var sevenData = [
 
 {
     id:28,
-    img: 'https://n4.sdlcdn.com/imgs/j/v/x/230X258_sharpened/SDL150769155_imresizer-73bad.webp',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/v/x/230X258_sharpened/SDL150769155_imresizer-73bad.webp',
     name:'GOODFLAME 4 BURNER SS STAR (R) GAS STOVE WITH BRASS BURNER',
     strikedOffPrice: '8000',
     price: '6536',
@@ -572,7 +572,7 @@ var sevenData = [
 },
 
 {id:29,
-    img: 'https://n2.sdlcdn.com/imgs/j/q/x/230X258_sharpened/Aryanveda-Insta-Glow-Micellar-Water-SDL827025758-1-5a978.png',
+    image_url: 'https://n2.sdlcdn.com/imgs/j/q/x/230X258_sharpened/Aryanveda-Insta-Glow-Micellar-Water-SDL827025758-1-5a978.png',
     name:'GE Filtration 9 inches Candle filter suitable for all water purifier+Sediment Filter,RO filter candle-Pack of 4 pcs candle filter',
     strikedOffPrice:'799',
     price: '299',
@@ -581,7 +581,7 @@ var sevenData = [
 
 {
     id:30,
-    img: 'https://n4.sdlcdn.com/imgs/j/d/v/230X258_sharpened/RO-Tap-Kent-Type-SDL606932130-1-380a2.jpeg',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/d/v/230X258_sharpened/RO-Tap-Kent-Type-SDL606932130-1-380a2.jpeg',
     name: 'RO Tap Kent Type',
     strikedOffPrice: '850',
     price: '299',
@@ -591,7 +591,7 @@ var sevenData = [
 
 {
     id:31,
-    img: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
+    image_url: 'https://n1.sdlcdn.com/imgs/j/n/5/230X258_sharpened/GE-Filtration-TDS-meter-for-SDL301364942-1-b17e1.jpeg',
     name:'GE Filtration PH meter for testing the ph level/Digital LCD meter for measure accurate PH level/High Accuracy with 0.00-14.00ph-Pocket',
     strikedOffPrice:'1899',
     price: '519',
@@ -600,7 +600,7 @@ var sevenData = [
 
 {
     id:32,
-    img: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
+    image_url: 'https://n4.sdlcdn.com/imgs/j/l/t/230X258_sharpened/Plastic-Tap-Dispenser-Blue-colour-SDL882642595-1-3bb56.jpeg',
     name:'Kitchen tap extension (Pack of 1) with Tightening Clamp Assorted Colors by Trending Tail',
     strikedOffPrice: '499',
     price: '179',
@@ -614,7 +614,7 @@ kitchenData.map(function(elem){
     console.log(box1);
 
     var img = document.createElement("img");
-    img.src=elem.img;
+    img.src=elem.image_url;
 
     var name = document.createElement("p");
     name.innerText=elem.name;
