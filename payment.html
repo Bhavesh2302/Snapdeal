@@ -191,13 +191,15 @@
             <input id="name"  type="text" placeholder="Enter Card Holder Name">
             <br>
             
-                <input id="input" type="submit" value="checkout">
+                <input id="input11" type="submit" value="checkout">
             </form>
             </div>
             
         </div>
         
     </div>
+
+    <!-- <p>heading</p> -->
     
 </body>
 </html>
@@ -234,7 +236,8 @@ var enteredname1=document.querySelector("#name").value
     // console.log(credentials)
     if(enteredcardnumber==cardno && enteredcvv==cvv && enteredexpiry=="2022-06" && enteredname1==name2){
   alert("correct card details")
-window.location.href="OTP.html"
+  alert("Payment Successful");
+window.location.href="finishpage.html"
 
   
 }
