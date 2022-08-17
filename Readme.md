@@ -43,8 +43,10 @@ This is the clone of product based site Snapdeal and we made it functional.
 ## Website Flow :
 
 * Landing page is the Homepage of Website.
+![homepage](https://github.com/Bhavesh2302/Snapdeal/blob/bhavesh/Imageicons/homepage.png)
+
 * Login Page/SignUp Page
-![login] (https://github.com/Bhavesh2302/Snapdeal/blob/bhavesh/Imageicons/login.png)
+![login](https://github.com/Bhavesh2302/Snapdeal/blob/bhavesh/Imageicons/login.png)
 
 * Cart Page & Payment page
  ![payment](https://github.com/Bhavesh2302/Snapdeal/blob/bhavesh/Imageicons/payment.png)
