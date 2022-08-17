@@ -45,7 +45,8 @@ This is the clone of product based site Snapdeal and we made it functional.
 * Landing page is the Homepage of Website.
 ![homepage](https://github.com/Bhavesh2302/Snapdeal/blob/bhavesh/Imageicons/homepage.png)
 
-* Login Page/SignUp Page
+* Login Page/SignUp Page.
+
 ![login](https://github.com/Bhavesh2302/Snapdeal/blob/bhavesh/Imageicons/login.png)
 
 * Cart Page & Payment page
