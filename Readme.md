@@ -36,7 +36,7 @@ This is the clone of product based site Snapdeal and we made it functional.
 ## Installation :
 
 * Clone the repository :
-  `git clone https://github.com/aashishkumar1/Faasos-clone.git`
+  `git clone https://github.com/Bhavesh2302/Snapdeal`
 
 
 
